@@ -53,7 +53,7 @@ endif
 let s:p.normal.right   = [ [ s:bg, s:blue, 'bold' ], [ s:bg, s:blue, 'bold' ] ]
 let s:p.normal.error   = [ [ s:red2,   s:bg ] ]
 let s:p.normal.warning = [ [ s:yellow, s:bg ] ]
-let s:p.insert.right   = [ [ s:bg, s:blue, 'bold' ], [ s:bg, s:blue, 'bold' ] ]
+let s:p.insert.right   = [ [ s:bg, s:green, 'bold' ], [ s:bg, s:green, 'bold' ] ]
 let s:p.replace.right  = [ [ s:bg, s:red1, 'bold' ], [ s:bg, s:red1, 'bold' ] ]
 let s:p.visual.right   = [ [ s:bg, s:orange, 'bold' ], [ s:bg, s:orange, 'bold' ] ]
 let s:p.tabline.left   = [ [ s:bg, s:gray3 ] ]
