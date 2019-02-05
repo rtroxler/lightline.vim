@@ -61,4 +61,4 @@ let s:p.tabline.tabsel = [ [ s:bg, s:orange, 'bold' ] ]
 let s:p.tabline.middle = [ [ s:gray3, s:gray2 ] ]
 let s:p.tabline.right  = copy(s:p.normal.right)
 
-let g:lightline#colorscheme#plain#palette = lightline#colorscheme#flatten(s:p)
+let g:lightline#colorscheme#oldlace#palette = lightline#colorscheme#flatten(s:p)
